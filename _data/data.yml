@@ -10,7 +10,7 @@ contact:
   location: Phuket, Thailand # location
   email: p.sc6pe@mail.ru    # email address
   phone: +7-985-414-94-23 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  telegramm: pavelscope     # site URL without schema, like example.com, will automatically prepand "https://"
+  mail: pavelscope     # site URL without schema, like example.com, will automatically prepand "https://"
 
   gender: male                # gender or pronoun
   birthday:                # birthday
@@ -21,7 +21,7 @@ contact:
   # contact
   wechat:                  # username
   whatsapp:                # 8611122223333     | https://wa.me/8611122223333
-  telegram:                # username          | https://t.me/username
+  telegram: https://t.me/pavelscope               # username          | https://t.me/username
   messenger:               # username          | https://m.me/username
   line:                    # lineid            | https://line.me/R/ti/p/@lineid
   viber:                   # username          | https://vb.me/username
