@@ -7,14 +7,14 @@ basic:
 
 contact:
   # meta
-  location: Beijing, China # location
-  email: me@example.com    # email address
-  phone: +86-111-2222-3333 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
+  location: Phuket, Thailand # location
+  email: p.sc6pe@mail.ru    # email address
+  phone: +7-985-414-94-23 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  telegramm: pavelscope     # site URL without schema, like example.com, will automatically prepand "https://"
 
-  gender:                  # gender or pronoun
+  gender: mail                # gender or pronoun
   birthday:                # birthday
-  nationality:             # nationality
+  nationality: Russian         # nationality
   visa:                    # passport visa
   drivinglicense:          # driving licence
 
@@ -106,16 +106,26 @@ experience:
         + First
         + Second
 
-    - company: First Company
-      link:
-      tags: Part-time, remote
-      date: 2017.03 - 2018.03
+    - company: Onetrak
+      link: '#'
+      tags: Full-time
+      date: 2018.03 - 2019.03
       role: Backend Developer
       location: Beijing
       description: |
         Your key responsibilities and achievements in the company.
         + First
         + Second
+
+    - company: Федеральное космическое агентство
+      link:
+      tags: Part-time, remote
+      date: 2016.10 - 2019.02
+      role: Инженер
+      location: Москва
+      description: |
+        Your key responsibilities and achievements in the company.
+        + Разработка программ и расчёт аэродинамики летательных аппаратов
 
 project:
   show: true
