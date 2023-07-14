@@ -12,9 +12,9 @@ contact:
   phone: +7-985-414-94-23 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   mail: pavelscope     # site URL without schema, like example.com, will automatically prepand "https://"
 
-  gender: male                # gender or pronoun
+  gender:              # gender or pronoun
   birthday:                # birthday
-  nationality: Russian         # nationality
+  nationality:         # nationality
   visa:                    # passport visa
   drivinglicense:          # driving licence
 
@@ -59,7 +59,7 @@ contact:
   artstation:              # username          | https://www.artstation.com/username
 
   # other cv
-  linkedin:                # username          | https://linkedin.com/in/username
+  linkedin: https://www.linkedin.com/in/pavel-paronkin-a074a512b               # username          | https://linkedin.com/in/username
   indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
   xing:                    # username          | https://www.xing.com/profile/username
   fiverr:                  # username          | https://www.fiverr.com/username
@@ -81,18 +81,28 @@ contact:
 profile:
   show: true
   order: 1
-  title: Profile
+  title: Профиль
   description: |
-    The profile section in a resume is a brief summary of the applicant's skills, qualifications, and experience. The purpose of this section is to provide a snapshot of the applicant's professional background and highlight their most relevant accomplishments and strengths. It may include information such as the applicant's career objectives, years of experience, areas of expertise, and key achievements.
+      Специализации: Программист, разработчик
 
-    A well-crafted profile section can help to grab the attention of potential employers and encourage them to read on and learn more about the applicant's qualifications and experience.
+Занятость: полная занятость
+
+График работы: полный день
+
+Желательное время в пути до работы: удаленная работа
 
 experience:
   show: true
   order: 2
-  title: Experiences
+  title: Опыт работы
   description: |
-    The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
+    Специализации: Программист, разработчик
+
+Занятость: полная занятость
+
+График работы: полный день
+
+Желательное время в пути до работы: удаленная работа
 
   items:
     - company: Second Company
