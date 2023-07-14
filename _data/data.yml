@@ -12,7 +12,7 @@ contact:
   phone: +7-985-414-94-23 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   telegramm: pavelscope     # site URL without schema, like example.com, will automatically prepand "https://"
 
-  gender: mail                # gender or pronoun
+  gender: male                # gender or pronoun
   birthday:                # birthday
   nationality: Russian         # nationality
   visa:                    # passport visa
