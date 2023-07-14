@@ -21,7 +21,7 @@ contact:
   # contact
   wechat:                  # username
   whatsapp:                # 8611122223333     | https://wa.me/8611122223333
-  telegram: https://t.me/pavelscope               # username          | https://t.me/username
+  telegram: http://telegram.me/pavelscope              # username          | https://t.me/username
   messenger:               # username          | https://m.me/username
   line:                    # lineid            | https://line.me/R/ti/p/@lineid
   viber:                   # username          | https://vb.me/username
@@ -105,40 +105,70 @@ experience:
 Желательное время в пути до работы: удаленная работа
 
   items:
-    - company: Second Company
+      - company: Яндекс
       link: '#'
       tags: Full-time
-      date: 2018.03 - 2019.03
-      role: Backend Developer
-      location: Beijing
+      date: Январь 2023 — настоящее время
+      role: iOS Developer
+      location: Москва
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        + Разработал видео баннер для рекламной врезки в Яндекс маркете, так же сделал аналитику рекламных баннеров при показе пользователю
+      - company: Промсвязьбанк
+      link: '#'
+      tags: Full-time
+      date: Июнь 2020 — Июнь 2022 2 года 1 месяц
+      role: iOS Developer
+      location: Москва
+      description: |
+        + Разработка и поддержание мобильного приложения для Юр лиц, в бизнес разделе кредиты. Создание новых флоу для кредитования юр, лицОптимизация монолита, вынесение зависимостей в отдельный Фреймворк кредиты Различные технические задачи Написание тестовСоздание ui. Доработка компонентов дизайн системы
+      - company: Сбер
+      link: '#'
+      tags: Full-time
+      date: Сентябрь 2019 — Июнь 2020 10 месяцев
+      role: iOS Developer
+      location: Москва
+      description: |
+        + Разработка мобильного приложения для корпоративного взыскания, разработка графической библиотеки для отображения диаграммы Ганта, редизайн мобильного приложения (маркетплейс) для продажи залогового имущества и непрофильных активов Разработка мобильного приложения СберБизнес
 
+      - company: Finstarlabs
+      link: '#'
+      tags: Full-time
+      date: Июнь 2019 — Август 2019 3 месяца
+      role: Backend Developer
+      location: Москва
+      description: |
+        + Разработал мобильное приложение для букмекерской компании, приложение было написано с нуля, во время работы работал с такими библиотеками как UIKit, j2objc, Firebase.
+
+    - company: ФИНАМ
+      link: '#'
+      tags: Full-time
+      date: Февраль 2019 — Июнь 2019 5 месяцев
+      role: iOS Developer
+      location: Москва
+      description: |
+        + Разработка приложения finamtrade, в основном занимался дефектами в приложении, реализовал локальные пуш уведомления. Работал с библиотеками написанными в Finam, а так же с базой данных CoreData, UIKit и сетевыми запросами
+  
     - company: Onetrak
       link: '#'
       tags: Full-time
-      date: 2018.03 - 2019.03
-      role: Backend Developer
-      location: Beijing
+      date: 2019.02 - 2019.06
+      role: iOS Developer
+      location: Москва
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        + Разработка мобильного приложения на Swift и Objective c. Разработал раздел “Глюкоза”, для отслеживание показания глюкозы, раздел обучение, раздел награды. Во время работы работал с базой данных Realm, сетевыми запросами и UIKit. Так же занимался правкой дефектов.
 
     - company: Федеральное космическое агентство
       link:
-      tags: Part-time, remote
-      date: 2016.10 - 2019.02
+      tags: Full-time
+      date: Октябрь 2016 — Февраль 2019 2 года 5 месяцев
       role: Инженер
       location: Москва
       description: |
-        Your key responsibilities and achievements in the company.
+
         + Разработка программ и расчёт аэродинамики летательных аппаратов
 
 project:
-  show: true
+  show: false
   order: 3
   title: Projects
   description: |
@@ -168,7 +198,7 @@ project:
         + Second
 
 skill:
-  show: true
+  show: false
   order: 4
   title: Skills
   description: |
@@ -218,7 +248,7 @@ skill:
         - Skill I
 
 education:
-  show: true
+  show: false
   order: 5
   title: Education
   description: |
@@ -248,7 +278,7 @@ education:
         + Second
 
 certificate:
-  show: true
+  show: false
   order: 6
   title: Certificates
   description: |
@@ -275,7 +305,7 @@ certificate:
         It's my Example Certificate Two by Example.
 
 publication:
-  show: true
+  show: false
   order: 7
   title: Publications
   description: |
@@ -298,7 +328,7 @@ publication:
       link:
 
 award:
-  show: true
+  show: false
   order: 8
   title: Awards
   description: |
@@ -323,7 +353,7 @@ award:
         It's my Example Awared Two by Example.
 
 patent:
-  show: true
+  show: false
   order: 9
   title: Patents
   description: |
@@ -347,7 +377,7 @@ patent:
     + Foo Bar. 2022. Example patent name two. US 654321, filed Oct 3, 2022, and issued Nov 15, 2022.
 
 organization:
-  show: true
+  show: false
   order: 10
   title: Organizations
   description: |
@@ -367,13 +397,13 @@ language:
     It's important to be honest about your language proficiency in your resume. If you overstate your abilities, it could lead to problems during the interview process or on the job. If you have taken language courses or earned language certifications, you can also include this information in the languages section of your resume.
 
   items:
-    - idiom: Chinese
-      level: Native
+    - idiom: Русский
+      level: C2
     - idiom: English
-      level: Professional
+      level: B1
 
 interest:
-  show: true
+  show: false
   order: 12
   title: Interests
   description: |
@@ -390,7 +420,7 @@ interest:
       link:
 
 evaluation:
-  show: true
+  show: false
   order: 13
   title: Self-evaluation
   description: |
@@ -401,7 +431,7 @@ evaluation:
     A well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.
 
 reference:
-  show: true
+  show: false
   order: 14
   title: References
   description: |
